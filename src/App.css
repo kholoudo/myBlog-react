@@ -1,0 +1,196 @@
+.App{
+/* background-image: url("main_top_bg.jpg"); */
+background-image: url("photo03.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+height: 100vh;
+
+}
+
+.logoDiv{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto ;
+}
+.App-logo{
+  width:12%;
+  height: 12%;
+  padding: 0;
+  margin: 0;
+}
+.navBar{
+  color:#f4ce6e;
+  background-color:rgb(43, 41, 41);
+  margin: 0%;
+}
+h1{
+  color: #f4ce6e;
+  margin: 0;
+}
+a{
+  /* margin: 1em;
+  padding: 1em; */
+  color:  #f4ce6e;
+  font-size: 1.5em;
+}
+
+li:hover{
+  transform: scale(1.1);
+transition-duration: 0.4ms;
+}
+.navList {
+  display: flex;
+  margin: 0;
+  flex-direction:row;
+  justify-content: space-around;
+  
+  
+}
+
+ .item {
+  list-style-type: none;
+  /* text-decoration: none; */
+ }
+
+ .header1{
+
+ align-content: center;
+ text-align: center;
+ }
+
+ .homeHeader{
+
+   text-align: center;
+   color:#f4ce6e;
+   
+   font-size: 2em;
+   padding: 2.5em;
+   font-weight: bold;
+ }
+
+
+ /* login*/
+
+ .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+ }
+ .RegForm1{
+  background-color: #f3d791;
+
+ }
+
+ .login-form{
+  background-color: #f3d791;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border: black 1px solid;
+
+ }
+.sumbit{
+background-color: black;
+color:#f4ce6e ;
+padding:0.5em;
+border-radius: 0.5em;
+margin: 0.5em;
+font-weight: bold;
+}
+.login{
+
+  width: 40%;
+  
+}
+
+.password{
+
+  width: 40%;
+}
+/*Registration form*/
+
+
+.inputs{
+
+  width:50%;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.RegForm{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+
+
+}
+.RegForm1{
+
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border: black 1px solid;
+
+}
+
+.regBtn{
+  background-color: black;
+  color:#f4ce6e ;
+  padding:0.5em;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  font-weight: bold;
+
+}
+p{
+
+  margin: 0;
+  padding: 2em;
+}
+.aboutsec{
+  background-image: url("./image5.jpg");
+  opacity:0.6;
+height: 100vh;
+  background-color: #f4ce6e;
+font-size: 1.2em;
+text-align: center;
+}
+.inputs1{
+  width:50%;
+  padding: 0.5em;
+  margin: 0.5em;
+
+}
+.contact1{
+  background-image: url("./image5.jpg");
+  opacity:0.6;
+height: 100vh;
+  background-color: #f4ce6e;
+}
+
+.conItem{
+list-style-type: none;
+font-size: 1.5em;
+
+}
+
+.contact1 h1{
+ padding: 0.5em;
+  color: #000;
+}
+
+.blogClass{
+
+  background-image: url("image100.jpg");
+}
